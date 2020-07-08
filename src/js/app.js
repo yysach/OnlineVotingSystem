@@ -1,3 +1,4 @@
+// javascript front end
 App = {
   web3Provider: null,
   contracts: {},
@@ -8,6 +9,8 @@ App = {
     return App.initWeb3();
   },
 
+
+  // using javascript web3 API
   initWeb3: function() {
     // TODO: refactor conditional
     if (typeof web3 !== 'undefined') {

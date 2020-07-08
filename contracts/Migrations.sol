@@ -1,6 +1,6 @@
 pragma solidity ^0.6.9;
 // SPDX-License-Identifier: MIT
-
+// added migration contract
 contract Migrations {
   address public owner;
   uint public last_completed_migration;

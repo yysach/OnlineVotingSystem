@@ -1,6 +1,6 @@
 pragma solidity ^0.6.9;
 // SPDX-License-Identifier: MIT
-
+// aaded election contract
 contract Election {
     // Model a Candidate
     struct Candidate {
